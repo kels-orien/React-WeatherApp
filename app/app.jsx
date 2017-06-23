@@ -6,6 +6,9 @@ var Weather = require ('Weather');
 var About = require ('About');
 var Example = require ('Example');
 
+//load foundation-sites
+require ('style!css!foundation-sites/dist/foundation.min.css')
+$(document).foundation();
 
 //example of what was done above in react-router
  var obj = {
