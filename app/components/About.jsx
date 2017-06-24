@@ -3,8 +3,27 @@ var React = require('react');
 var About = React.createClass ({
   render: function () {
     return (
+      <div>
+        <h1 className = "text-center">About</h1>
+        <p>
+          This is a free open source Weather App Application
+          built using the React framework.
+        </p>
+        <p>
+            Tools used in production of Weather App:
+        </p>
+        <ul>
+          <li>
+              <a href = "https://facebook.github.io/react">React</a> -This was then
+                Javascript framework used.
+          </li>
+          <li>
+                <a href = "https://openweathermap.org">Open Weather Map</a> - I used Open
+                  Weather Map to Search for Weather data by city Name
+          </li>
+        </ul>
+      </div>
 
-      <h3>About Component</h3>
 );
   }
 });
