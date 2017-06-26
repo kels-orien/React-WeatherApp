@@ -14,5 +14,5 @@ if (req.headers['x-forwarded-proto'] === 'https'){
 }) ;
 app.use(express.static('public'));
 app.listen(PORT, function () {
-  console.log('Express server is up on port 3000' + PORT);
+  console.log('Express server is up on port ' + PORT);
 });

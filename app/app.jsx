@@ -10,6 +10,9 @@ var Example = require ('Example');
 require ('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
 
+
+//App css
+require('style!css!sass!applicationStyles')
 //example of what was done above in react-router
  var obj = {
    name: 'kels'
